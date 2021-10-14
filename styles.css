@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Festive&display=swap');
+body{
+    font-family: 'Ephesis', cursive;
+
+    margin: 0 auto;
+    padding: 0;
+    background-image: url('./images/bg-newyear.jpg');
+    background-size: cover;
+    font-size: 10px;
+ 
+}
+.container{
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: rgb(210, 186, 194);
+    
+}
+.count-down{
+    display: flex;
+    align-items: center;
+   
+}
+h1{
+    color: rgb(251, 97, 85);
+    margin: 10% 0 0 0;
+    font-size: 6rem;
+}
+h2{
+    margin: 0 10px;
+    font-size: 8rem;
+}
+span{
+    color: rgb(72, 42, 56);
+    font-size: 2rem;
+}
+
+@media screen and (max-width:1200px){
+    h1{
+        font-size: 4rem;
+        
+    }
+    h2{
+        font-size: 6rem;
+    }
+    span{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:960px){
+    h1{
+        font-size: 2rem;
+
+    }
+    h2{
+        font-size: 4rem;
+        margin: 0 10px;
+    }
+    span{
+        font-size: 0.5rem;
+    }
+}
